@@ -1,0 +1,13 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2, h3 { 
+    margin: 0.5rem 0; 
+}
+a {
+    text-decoration : none;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
