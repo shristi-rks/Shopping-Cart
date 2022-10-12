@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Basket from "./components/Basket";
 import { useState } from 'react';
 import { Button, Items, MoreItems } from './components/Button'
 
@@ -16,14 +15,31 @@ function App() {
   return (
     <div className="App">
      <Header />
+     <div id= "page">
      <div>
       <Main></Main>
-      <Basket></Basket>
-     </div>
-     <div>
       <Button handleClick={handleClick} text="Add Item" />
       <Items click = {click} />
       <MoreItems handleClick={handleClick}  handleRemove={handleRemove} click = {click} />
+     </div>
+     <div>
+      <Main></Main>
+      <Button handleClick={handleClick} text="Add Item" />
+      <Items click = {click} />
+      <MoreItems handleClick={handleClick}  handleRemove={handleRemove} click = {click} />
+     </div>
+     <div>
+      <Main></Main>
+      <Button handleClick={handleClick} text="Add Item" />
+      <Items click = {click} />
+      <MoreItems handleClick={handleClick}  handleRemove={handleRemove} click = {click} />
+     </div>
+     <div>
+      <Main></Main>
+      <Button handleClick={handleClick} text="Add Item" />
+      <Items click = {click} />
+      <MoreItems handleClick={handleClick}  handleRemove={handleRemove} click = {click} />
+     </div>
      </div>
 
     </div>
