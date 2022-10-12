@@ -1,3 +1,3 @@
 export default function Basket(props) {
-    return <div>bask</div>;
+    return <div>basket</div>;
 }
