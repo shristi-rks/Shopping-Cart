@@ -1,3 +1,3 @@
-export default function Basket(props) {
-    return <div>basket</div>;
+export default function Basket() {
+    return <div className="block col-1" >Basket</div>;
 }

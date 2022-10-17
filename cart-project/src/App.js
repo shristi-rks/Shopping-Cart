@@ -1,34 +1,17 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Column from "./components/Column"
+import Basket from "./components/Basket"
 
 
 function App() {
  
   return (
-    <div className="App">
+    <div>
      <Header />
-     <div id= "page">
-     <div>
-      <Main></Main>
-      <Column />
+     <div className="row">
+      <Main/>
+      <Basket />
      </div>
-     <div>
-     <Main></Main>
-      <Column />
-     </div>
-     <div>
-      <Main></Main>
-      <Main></Main>
-      <Column />
-     </div>
-     <div>
-      <Main></Main>
-      <Main></Main>
-      <Column />
-     </div>
-     </div>
-
     </div>
   );
 }

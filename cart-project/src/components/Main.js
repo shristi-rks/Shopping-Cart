@@ -1,7 +1,7 @@
-export default function Main(props) {
+export default function Main() {
     return (
-    <div>
-        <p className="img">image will be here</p>
+    <div className="block col-2">
+        Main
     </div>
     );
 }
