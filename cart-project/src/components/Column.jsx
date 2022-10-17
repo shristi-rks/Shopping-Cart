@@ -35,7 +35,7 @@ const Column = () => {
     }
     return (
     <div>
-      <Button handleClick={handleClick} text="Add Item" />
+      <Button handleClick={handleClick} text="Add To Cart" />
       <Items click = {count} />
       <MoreItems handleClick={handleClick}  handleRemove={handleRemove} click = {count} />
      </div>

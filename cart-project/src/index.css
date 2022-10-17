@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    background-color: rgb(177, 219, 219);
    }
 body {
     margin: 0;
@@ -11,6 +10,15 @@ body {
 
 a {
     text-decoration: none;
+}
+img.small {
+    max-height: 8rem;
+    width: 100%;
+}
+.card {
+    background-color: white;
+    padding: 1rem;
+    margin: 0.5rem;
 }
 
 .row {
@@ -39,7 +47,7 @@ a {
 }
 
 .block {
-    background-color: rgb(93, 218, 218);
+    background-color: rgb(160, 208, 245);
     padding: 1rem;
     margin: 0.5rem;
 }
