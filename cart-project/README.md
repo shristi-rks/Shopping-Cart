@@ -19,3 +19,8 @@
 5. Implement cart
     1. add & remove items from the cart
 
+6. create basket component
+    1. list items in cartItems
+    2. calculate sub total
+    3. show checkout button
+
